@@ -1,41 +1,69 @@
-# numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]  # мы создаём лист и наполняем его элементами
 
-# numbers1 = []
-# numbers2 = list() редкое написание (создание листа как и на 3 строке)
+# numbers1 = []  # мы создаём пустой лист
+# numbers2 = list() # редкое написание (создание листа как и на 3 строке)
 
-# numbers = [1, 2, 3, 4, 5]
-# numbers2 = list(numbers)
-# numbers3 = numbers
+# numbers = [1, 2, 3, 4, 5] # мы создаём лист и наполняем его элементами
+# numbers2 = list(numbers)  # создаём лист и вводим в него значения другого листа
+# numbers3 = numbers  # создаём лист и вводим в него значения другого листа
 # print(numbers)
 # print(numbers2)
 # print(numbers3)
-# numbers = [1, 2, 3, 4, 5]
+# numbers = [1, 2, 3, 4, 5]  # создаём лист
 # print(numbers[0])
 # print(numbers[2])
 # print(numbers[4])
 #
-# test = ["mouse", 3.0, True, 3, ["Cat", 4.0, False, 2], []]
+# test = ["mouse", 3.0, True, 3, ["Cat", 4.0, False, 2], []]  # создаём лист и наполняем его значениями разных типов
 # print(test[2])
 # print(test[3])
 # print(test[5])
 #
-# numbers[0] = 10
+# numbers[0] = 10  #  меняем значение по индексу в листе
 # print(numbers[0])
 #
-# test[2] = False
-# test[5] = 1
+# test[2] = False # меняем значение по индексу в литсе
+# test[5] = 1  # меняем значение по индексу в листе
 # print(test)
 
-# numbers = [5] * 6
+# numbers = [5] * 6  # создаём лист и дублируем его значение 6 раз
 # print(numbers)
 
-# numbers = list(range(10))
+# numbers = list(range(10))  # создаём лист и записываем в него значения от 0 до 9
 # print(numbers)
 
-# number = list(range(3, 10))
+# number = list(range(3, 10))  # создаём лист и записывем в него значения от 3 до 9
 # print(number)
 
-# number1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-# number2 = list(range(1, 10))
+# number1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]  # создаём лист и записываем в него значения от 1 до 9
+# number2 = list(range(1, 10))  # создаём лист и записываем в него значения от 0 до 9
 # print(number1)
 # print(number2)
+
+# objects = [1, 2.0, True, "Space", []]  # создаём лист и записываем все типы данных,которые мы знаем
+# for i in objects:  # цикл, который перебирает элементы листа
+#     print(i)
+
+
+# objects = [2, 3.0, False, "Phone", []]  # создаём лист и записываем в него типы данных,которые мы знаем
+# i = 0  # переменная для того,чтобы задать счётчик для цикла while
+# while i < len(objects):  # цикл делает тоже самое,что и for i in
+#     print(objects[i])
+#     i += 1  # увеличиваем на 1
+
+
+# a = [1, 5, 10] # создаём лист с значениями инт
+# print(a)
+# a.append("Maga")  # метом,который добавляет элемент в конец листа
+# print(a)
+# a.reverse()  # метод, который возвращает обратный лист
+# print(a)
+# a.clear()  # метод,который опустошает лист
+# print(a)
+
+numbers = [1, 3, 8, 6, 1, 9, 4]  # создаём лист с интовыми элементами
+print(len(numbers))  # функций len,которая считает кол-во элементов
+print(numbers)
+print(sorted(numbers))  # функция sorted,чтобы отсортировать по возрастанию
+print(min(numbers))  # функция для минимального часа
+print(max(numbers))  # функция для максимально числа
