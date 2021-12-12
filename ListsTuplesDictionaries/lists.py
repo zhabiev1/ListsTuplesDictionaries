@@ -61,9 +61,61 @@
 # a.clear()  # метод,который опустошает лист
 # print(a)
 
-numbers = [1, 3, 8, 6, 1, 9, 4]  # создаём лист с интовыми элементами
-print(len(numbers))  # функций len,которая считает кол-во элементов
-print(numbers)
-print(sorted(numbers))  # функция sorted,чтобы отсортировать по возрастанию
-print(min(numbers))  # функция для минимального часа
-print(max(numbers))  # функция для максимально числа
+# numbers = [1, 3, 8, 6, 1, 9, 4]  # создаём лист с интовыми элементами
+# print(len(numbers))  # функций len,которая считает кол-во элементов
+# print(numbers)
+# print(sorted(numbers))  # функция sorted,чтобы отсортировать по возрастанию
+# print(min(numbers))  # функция для минимального часа
+# print(max(numbers))  # функция для максимально числа
+
+
+# users = ["Maga", "Max"]  # создаём лист и наполняем его элементами
+# users.append("Sergey")  # добавляем новый элемент в лист в конец
+# print(users)
+# users.insert(0, "John")  # добавляем элемент по индексу
+# print(users)
+# print(users.index("Maga"))
+# users.pop(1)  # удаляем элемент по индексу
+# print(users)
+# users.clear()  # очищаем лист
+# print(users)
+
+# delete_city = input("Введите город,который Вы хотите удалить")  # принмаем от пользователя город
+# city = ["New York", "Munich", "Tokyo", "Madrid", "Moscow"]
+# print(city)
+# if delete_city in city:
+#     city.remove(delete_city)
+# print(city)
+
+# delete_city = input("Введите город,который Вы хотите удалить")
+#
+#
+# def check_and_delete(city):
+#     list_city = ["New York", "Munich", "Tokyo", "Madrid", "Moscow"]
+#     if city in list_city:
+#         index = list_city.index(city)
+#         list_city.pop(index)
+#         return list_city
+#
+#
+# print(check_and_delete(delete_city))
+
+# name = input("Введите имя: ")
+#
+# users = ["John", "John", "Maga", "Dima", "Maga", "John"]
+# print(users.count(name))
+
+# user_name = input("Введите имя: ")
+#
+#
+# def counter_users(name):
+#     name_check = ["John", "John", "Maga", "Dima", "Maga", "John"]
+#     return name_check.count(name)
+#
+#
+# print(counter_users(user_name))
+
+
+
+
+
