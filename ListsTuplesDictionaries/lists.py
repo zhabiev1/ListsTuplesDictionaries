@@ -80,42 +80,78 @@
 # users.clear()  # очищаем лист
 # print(users)
 
-# delete_city = input("Введите город,который Вы хотите удалить")  # принмаем от пользователя город
-# city = ["New York", "Munich", "Tokyo", "Madrid", "Moscow"]
+# delete_city = input("Введите город,который Вы хотите удалить")  # принимаем от пользователя город
+# city = ["New York", "Munich", "Tokyo", "Madrid", "Moscow"]  # создаём лист с городами
 # print(city)
-# if delete_city in city:
-#     city.remove(delete_city)
+# if delete_city in city:  # если город который принмает от пользователя есть в листе city
+#     city.remove(delete_city)  # то мы удаляем этот город
 # print(city)
 
-# delete_city = input("Введите город,который Вы хотите удалить")
-#
-#
-# def check_and_delete(city):
-#     list_city = ["New York", "Munich", "Tokyo", "Madrid", "Moscow"]
-#     if city in list_city:
-#         index = list_city.index(city)
-#         list_city.pop(index)
-#         return list_city
+# delete_city = input("Введите город,который Вы хотите удалить")  прнимаем от пользователя город,который нужно удалить
+
+
+# def check_and_delete(city):  # создаём функцию параметром которой является город,который мы хотим удалить
+#     list_city = ["New York", "Munich", "Tokyo", "Madrid", "Moscow"]   # создаём лист всех городов
+#     if city in list_city:  # если город есть с списке всех городов
+#         index = list_city.index(city)  # мы определяем индекс города
+#         list_city.pop(index)  # удаляем город по индексу
+#         return list_city  # возвращаем список городов
 #
 #
 # print(check_and_delete(delete_city))
 
-# name = input("Введите имя: ")
-#
-# users = ["John", "John", "Maga", "Dima", "Maga", "John"]
-# print(users.count(name))
+# name = input("Введите имя: ")   # принимаем имя от пользователя
 
-# user_name = input("Введите имя: ")
-#
-#
-# def counter_users(name):
-#     name_check = ["John", "John", "Maga", "Dima", "Maga", "John"]
-#     return name_check.count(name)
+# users = ["John", "John", "Maga", "Dima", "Maga", "John"]  # создаём лист имён
+# print(users.count(name))  # считаем сколько раз встречается слово
+
+# user_name = input("Введите имя: ")  # вводим имя от пользователя
+
+
+# def counter_users(name):  # создаём функцию,которая принимает имя для проверки
+#     name_check = ["John", "John", "Maga", "Dima", "Maga", "John"]  # создаём лист имён
+#     return name_check.count(name)  # считаем сколько раз встретилось имя
 #
 #
 # print(counter_users(user_name))
 
+# numbers = [1, 4, 3, 2, 5, 9, 1, 8]
+# print("Максимальное значение листа:", numbers, "=", max(numbers))
+# print("Минимальное значение листа:", numbers, "=", min(numbers))
 
 
+# list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+#
+#
+# def max_and_min(arr):
+#     question = input("Вы хотите максимальное или минимальное число?")
+#     if question == "min":
+#         print("Минимальное значение листа:", arr, "=", min(arr))
+#     elif question == "max":
+#         print("Максимальное значение листа:", arr, "=", max(arr))
 
 
+# max_and_min(list_numbers)
+
+# users_one = ["Maga", "Sergey", "Robert"]
+# users_two = users_one
+# print(users_one)
+# print(users_two)
+# users_two.append("John")
+# print(users_one)
+# print(users_two)
+# users_one.append("Max")
+# print(users_one)
+# print(users_two)
+
+import copy
+users_one = ["Maga", "Sergey", "Max"]
+user_two = copy.deepcopy(users_one)
+print(users_one)
+print(user_two)
+user_two.append("Robert")
+print(users_one)
+print(user_two)
+user_two.pop(0)
+print(users_one)
+print(user_two)
