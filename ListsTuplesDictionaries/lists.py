@@ -115,43 +115,65 @@
 #
 # print(counter_users(user_name))
 
-# numbers = [1, 4, 3, 2, 5, 9, 1, 8]
-# print("Максимальное значение листа:", numbers, "=", max(numbers))
-# print("Минимальное значение листа:", numbers, "=", min(numbers))
+# numbers = [1, 4, 3, 2, 5, 9, 1, 8] # создаём лист и наполняем его элементами
+# print("Максимальное значение листа:", numbers, "=", max(numbers)) # ищем максимальное значение в листе
+# print("Минимальное значение листа:", numbers, "=", min(numbers)) # ищем минимальное значение в листе
 
 
-# list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# list_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9] # создаём лист и наполняем его элементами
 #
 #
-# def max_and_min(arr):
-#     question = input("Вы хотите максимальное или минимальное число?")
-#     if question == "min":
-#         print("Минимальное значение листа:", arr, "=", min(arr))
-#     elif question == "max":
-#         print("Максимальное значение листа:", arr, "=", max(arr))
+# def max_and_min(arr): # создаём функцию, который параметром принмаем лист элемента
+#     question = input("Вы хотите максимальное или минимальное число?") # запрашиваем у пользователя значение
+#     if question == "min": # если вводит минимальное
+#         print("Минимальное значение листа:", arr, "=", min(arr)) # выдаёт мин число
+#     elif question == "max": # если максимальное
+#         print("Максимальное значение листа:", arr, "=", max(arr)) # выдаёт максимальное
 
 
-# max_and_min(list_numbers)
+# max_and_min(list_numbers) # вызов функции
 
-# users_one = ["Maga", "Sergey", "Robert"]
-# users_two = users_one
+# users_one = ["Maga", "Sergey", "Robert"] # создаём лист и наполняем его элементами
+# users_two = users_one # приравниваем листы
 # print(users_one)
 # print(users_two)
-# users_two.append("John")
+# users_two.append("John") # добавляем имя в конец листа
 # print(users_one)
 # print(users_two)
-# users_one.append("Max")
+# users_one.append("Max")  # добавляем имя в конец листа
 # print(users_one)
 # print(users_two)
 
-import copy
-users_one = ["Maga", "Sergey", "Max"]
-user_two = copy.deepcopy(users_one)
-print(users_one)
-print(user_two)
-user_two.append("Robert")
-print(users_one)
-print(user_two)
-user_two.pop(0)
-print(users_one)
-print(user_two)
+# import copy # импортируем библиотеку copy
+# users_one = ["Maga", "Sergey", "Max"]  # создаём лист и наполняем его элементами
+# user_two = copy.deepcopy(users_one)  # делаем независимый дубликат списка
+# print(users_one)
+# print(user_two)
+# user_two.append("Robert")  # добавляем имя в конец листа
+# print(users_one)
+# print(user_two)
+# user_two.pop(0) # удаляем значение листа по индексу
+# print(users_one)
+# print(user_two)
+
+# names = ["Antony", "Max", "Maga", "Sergey", "Irina", "Dima", "Robert"] # создаём лист и наполняем его элементами
+# print(names)
+# print(names[2:6]) # обрезаем список со 2 до 6 элемента
+
+# user1 = ["Maga", "Riki", "Oksana", "Sergey"]  # создаём лист и наполняем его элементами
+# user2 = ["Robert", "Carry", "Sam", "Bob"]  # создаём лист и наполняем его элементами
+# user_finally = user1 + user2 # соединяем листы
+# print(user_finally)
+
+# users = [  # создаём лист
+#     ["Maga", 22],  # создаём лист в листе
+#     ["Oksana", 25],  #  создаём лист в листе
+#     ["Irina", 35]  # создаём лист в листе
+# ]
+# # print(users)  # выводим изначальный лист
+# # print(users[0])  # выводим лист под индексом
+# # print(users[0][1])  # выводим значение встроенного листа
+
+# for people in users:  #  создаём цикл, который прогоняет полный список юзеров
+#     for i in people:  # бежит по внутренним листам
+#         print(i, end=" ! ")  # выводим i и добавляем в конце !
