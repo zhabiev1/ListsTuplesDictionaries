@@ -47,3 +47,54 @@
 # print(country["Spain"])  # выводит значение по ключу
 # country["Spain"] = "Barcelona"  # меняет значение ключа Spain на Barcelona
 # print(country)
+
+# question = input("Введите страну! ") # просим юзера ввести страну
+# countries = {  # создаём dictionary
+#     "Japan": "Tokyo",  # заполняем значение по ключу
+#     "Usa": "Washington",  # заполняем значение по ключу
+#     "Spain": "Madrid",  # заполняем значение по ключу
+#     "Moscow": "Russia"  # заполняем значение по ключу
+# }
+# if question in countries:  # если переменная есть в dictionary
+#     print(countries[question])  # выводим значение,введённое юзером
+# else:  # в другом случае
+#     print("Элемент не найден")  # пишем элемент не найден
+
+# check_the_name = input("Введите имя: ")  # просим юзера ввести имя
+# names = {  # создаём dictionary
+#     "John": "Steven",  # заполняем значение по ключу
+#     "Maga": "Zhabiev",  # заполняем значение по ключу
+#     "Albert": "Einstein",  # заполняем значение по ключу
+#     "Adolf": "Hitler"  # заполняем значение по ключу
+# } # закрываем dictionary
+# user = names.get(check_the_name, "Такого имени нет")  # get выводит значение,если такого элемента нет = print
+# print(user)
+
+# check_the_name = input("Введите имя: ")  # просим юзера ввести имя
+# names_and_numbers = {  # создаём dictionary
+#     "Maga": 380985638919,  # заполняем значение по ключу
+#     "Sergey": 380985638914,  # заполняем значение по ключу
+#     "Dima": 380995638916,  # заполняем значение по ключу
+#     "Johan": 380985638910  # заполняем значение по ключу
+# }  # закрываем dictionary
+# print(names_and_numbers)
+# if check_the_name in names_and_numbers:  # если данные, введённые юзером есть в dictionary
+#     del names_and_numbers[check_the_name]  # удаляем ввёденные юзером ключ и значение
+#     print(names_and_numbers)
+# else:  # иначе
+#     print("Такого имени нет")  # пишем такого имени нет
+
+# check_the_lable = input("Введите имя: ")  # просим юзера ввести марку
+# auto = {  # создаём dictionary
+#     "BMW": "X5, X6, M5",  # заполняем значение по ключу
+#     "Mercedes": "M1, M2, M3",  # заполняем значение по ключу
+#     "Volkswagen": " P2, P1, PP",  # заполняем значение по ключу
+#     "Mazda": "K1,K2,L3"  # заполняем значение по ключу
+# }
+# print(auto)
+# finally_auto = auto.pop(check_the_lable, "Такого значения не существует")  # pop удаляет по значению ключа
+# print(auto)
+# print(finally_auto)
+# auto.clear()  # очищаем полностью dictionary
+# print(auto)
+
