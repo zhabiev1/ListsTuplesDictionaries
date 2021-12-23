@@ -98,3 +98,100 @@
 # auto.clear()  # очищаем полностью dictionary
 # print(auto)
 
+
+# users = {
+#     "Serhii": "28",
+#     "Maga": "22",
+#     "Dima": "29"
+# }
+# print(users)
+# users2 = users.copy()
+# print(users2)
+
+# cities = {
+#     "Germany": "Berlin",
+#     "Ukraine": "Kyiv",
+# }
+# cities2 = {
+#     "Spain": "Madrid",
+#     "Belarus": "Minsk"
+# }
+#
+# cities.update(cities2)
+# print(cities)
+# print(cities2)
+
+# user = {
+#     "Maga": 380985638919,
+#     "Johan": 38097827347,
+#     "Riki": 343594589098,
+#     "Olaf": 390242409024
+# }
+# for key in user:
+#     print(key, user[key])
+# for key in user.keys():
+#     print(key)
+# for value in user.values():
+#     print(value)
+
+# try:
+#     check_the_user = input("Введите имя:")
+#     check_the_information = input("Введите значение,которое хотите посмотреть: ID/Phone/Email")
+#     users = {
+#         "Maga": {
+#             "ID": 1,
+#             "Phone": 3982473284982,
+#             "Email": "hdkajsdha@yahoo.com"
+#         },
+#         "Vasya": {
+#             "ID": 2,
+#             "Phone": 734234894,
+#             "Email": "djsfhksdjhf@yahooo.com"
+#         },
+#         "Dima": {
+#             "ID": 3,
+#             "Phone": 3243249802394,
+#             "Email": "skjgdjad@gmail.com"
+#         }
+#     }
+#     print(users[check_the_user][check_the_information])
+# except KeyError:
+#     print("Неверные данные")
+# finally:
+#     print("Программа завершена")
+
+# users = {
+#     "Maga": {
+#         "ID": 1,
+#         "Phone": 3982473284982,
+#         "Email": "hdkajsdha@yahoo.com"
+#     },
+#     "Vasya": {
+#         "ID": 2,
+#         "Phone": 734234894,
+#         "Email": "djsfhksdjhf@yahooo.com"
+#     },
+#     "Dima": {
+#         "ID": 3,
+#         "Phone": 3243249802394,
+#         "Email": "skjgdjad@gmail.com"
+#     }
+# }
+#
+#
+# def user(info):
+#     try:
+#         check_the_user = input("Введите имя:")
+#         check_the_information = input("Введите значение,которое хотите посмотреть: ID/Phone/Email")
+#         print(info[check_the_user][check_the_information])
+#     except KeyError:
+#         print("Неверные данные")
+#     finally:
+#         print("Программа завершена")
+#
+#
+# user(users)
+
+
+
+
