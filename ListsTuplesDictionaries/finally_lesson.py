@@ -126,3 +126,21 @@
 # print(people[0][0]) # выводит элемент подлиста по индексу
 
 
+# numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# question = int(input("Введите число которое хотите найти"))
+# if question in numbers:
+#     print("Такое число есть")
+# else:
+#     print("Такого числа нет")
+
+# list_1 = [5, 4, 65, 6, 7, 8, 9]
+# list_1.reverse()
+# print(list_1)
+
+
+def change(lst):
+    print(lst)
+    lst[0], lst[-1] = lst[-1], lst[0]
+    print(lst)
+
+change([1, 2, 3, 4, 5])
