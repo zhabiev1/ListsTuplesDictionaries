@@ -138,9 +138,151 @@
 # print(list_1)
 
 
-def change(lst):
-    print(lst)
-    lst[0], lst[-1] = lst[-1], lst[0]
-    print(lst)
+# def change(lst):
+#     print(lst)
+#     lst[0], lst[-1] = lst[-1], lst[0]
+#     print(lst)
+#
+# change([1, 2, 3, 4, 5])
 
-change([1, 2, 3, 4, 5])
+# person = ("Maga", 21)
+# print(person)
+
+# person = "Maga", 21
+# print(person)
+
+# person = ("Maga",)
+# print(person)
+# print(type(person))
+
+# object_1 = ["Maga", 23, "Germany"]
+# object_2 = tuple(object_1)
+# print(object_2)
+
+# object_1 = ["Maga", 23, "Munich"]
+# print(tuple(object_1))
+
+# people = ("Maga", "Kris", "Marie", 23, 22, 1998)
+# print(len(people))
+
+# cities = ("Munich", "Kiew", 2022, True, 4.5)
+# print(cities[-1])
+
+# a = (True, "maga", 23, 4004, 4.5, False)
+# print(a[:3])
+# print(a[2:5])
+
+# b = ("Maga", True, False, 4.5, 5.6, "Alex", "Park", 2.5, "Tea", " Bed", "short")
+# print(b[1:6])
+# print(b[8:11])
+# print(b[-1])
+# print(b[:5])
+
+# def get_user():
+#     name = "Maga"
+#     age = 23
+#     company = "Apple"
+#     return name, age, company
+
+
+# print(get_user())
+
+# stuff = (False, True, "key", "cellphone", "charger", 1)
+# for i in stuff:
+#     print(i)
+
+# a = (False, True, "Maga", 23,)
+# i = 0
+# while i < len(a):
+#     print(a[i])
+#     i += 1
+
+# users = ("Maga", "Alex", "Dima", "Natali", "Kai")
+# question = input("Give your name")
+# if question in users:
+#     print("user is in list of elements")
+# else:
+#     print("nit fined")
+
+# users = {
+#     0: "Maga",
+#     1: "Dima",
+#     2: "Kai",
+#     3: "Max",
+#     4: "Kate"
+# }
+# print(users)
+
+#
+# car = {
+#     "Mercedes": "W220",
+#     "BMW": "x5",
+#     "Ferari": "6786",
+#     "Toyota": "Landkruser"
+# }
+# print(car)
+
+# empty = {
+#
+# }
+# print(empty)
+#
+#
+# empty_1 = dict()
+# print(empty_1)
+
+# user_list = [
+#     [1, "Maga"],
+#     [2, "Alex"],
+#     [3, "Kai"],
+#     [4, "Kate"]
+# ]
+# print(user_list)
+#
+# user_dictionary = dict(user_list)
+# print(user_dictionary)
+
+
+# user_tuple = (
+#     ("Germany", "Berlin"),
+#     ("UK", "London"),
+#     ("Spain", "Madrid"),
+#     ("Italy", "Milan")
+# )
+# print(user_tuple)
+# user_dictionary = dict(user_tuple)
+# print(user_dictionary)
+
+
+# books = {
+#     "Bulgakov": "Master and Margaret",
+#     "Erich Remarque": "Three friends",
+#     "Agatha Christie": "The Mousetrap",
+#     "Adolf Hitler": "Mein Kampf",
+#     "Arthur Doile": "Sherlock Holmes"
+# }
+# print(books)
+# print(books["Bulgakov"])
+# books["Adolf Hitler"] = "Schönheit der Rasse"
+# print(books)
+# a = books.get("Agatha Christie")
+# print(a)
+# del books["Adolf Hitler"]
+# print(books)
+# del books["Arthur Doile"]
+# print(books)
+# books.pop("Bulgakov")
+# print(books)
+
+
+# users = {
+#     1: "Munich",
+#     2: "Kyiv",
+#     3: "Lemberg"
+# }
+# print(users)
+# user_finally = users.copy()
+# print(user_finally)
+# users.clear()
+# print(users)
+
