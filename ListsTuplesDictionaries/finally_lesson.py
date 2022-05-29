@@ -354,3 +354,39 @@
 # print(users)
 # print(users["Maga"]["Phone"])
 # print(users["Max"]["Email"])
+
+# users = {"Maga", "Jonas", "Wolfgang", "Joachim", "Kai"} # создаем сет
+# print(users)
+# users = {"Maga", "Jonas", "Joachim", "Maga"} # создаем сет
+# print(users)
+
+# numbers = {1, 2, 3, 4, 5, 6, 7, 11, 9, 10} # создаем числовой сет который сортирует числа
+# print(numbers)
+
+# objects = {"Maga", True, 10000, ("Maga", "Kai"), 4.5}  # создаем сет с разными типами данных
+# print(objects)
+# print(len(objects))   # выводим длину сета
+
+
+# objects = {"Maga", True, 10000, ("Maga", "Kai"), 4.5}  # создаем сет с разными типами данных
+# objects.add("False")  # добавляем новый элемент в сет
+# print(objects)
+
+
+# objects = {"Maga", True, 10000, ("Maga", "Kai"), 4.5}  # создаем сет с разными типами данных
+# objects.remove(4.5)  # удаляет элемент
+# print(objects)
+# objects.discard(("Maga", "Kai"))  ]  # удаляет элемент(лучше потому что не выводит ошибку а предупреждение если элемент не найден
+# print(objects)
+# objects.clear()  # полностью очищает сет
+# print(objects)
+
+
+# objects = {"Maga", True, 10000, ("Maga", "Kai"), 4.5}  # создаем сет с разными типпами данных
+# for i in objects:  # прогон элементов в сете
+#     print(i)
+
+# users = frozenset({"Maga", "Dima", "Kai", "Kate"}) # неизменяемый сет (frozenset)
+# print(users)
+# print(type(users))
+
