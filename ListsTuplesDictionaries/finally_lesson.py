@@ -286,3 +286,71 @@
 # users.clear()
 # print(users)
 
+# users = {
+#     1: "Maga",
+#     2: "Dima",
+#     3: "Kai"
+# }
+
+# print(users[1])
+# print(users.get(1))
+# users.pop(3)
+# print(users)
+# del users[2]
+# print(users)
+
+
+# users = {
+#     "Maga": 31434234,
+#     "Alex": 432423423,
+#     "Dima": 42342342
+# }
+# print(users)
+# for i in users:
+#     print(users[i])
+
+
+# users = {
+#     "Maga": 31434234,
+#     "Alex": 432423423,
+#     "Dima": 42342342
+# }
+# for i in users.items():
+#     print(i)
+
+
+# users = {
+#     "Maga": 31434234,
+#     "Alex": 432423423,
+#     "Dima": 42342342
+# }
+# for i in users.keys():
+#     print(i)
+
+
+# users = {
+#     "Maga": 31434234,
+#     "Alex": 432423423,
+#     "Dima": 42342342
+# }
+# for i in users.values():
+#     print(i)
+
+
+# users = {
+#     "Maga": {
+#         "Phone": "65667676",
+#         "Email": "ksdjfksdf@gmail.com"
+#     },
+#     "Dima": {
+#         "Phone": "34234223",
+#         "Email": "ddafsdf@yahoo.com"
+#     },
+#     "Max": {
+#         "Phone": "4234234234",
+#         "Email": "dasdsdad@yahoo.com"
+#     }
+# }
+# print(users)
+# print(users["Maga"]["Phone"])
+# print(users["Max"]["Email"])
