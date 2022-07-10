@@ -105,3 +105,48 @@
 # object5.display_info()
 
 
+# class Person:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+#
+#     def display_info(self):
+#         print(f"Name: {self.name} Age: {self.age}")
+#
+#
+# a = Person("Maga", 23)
+# a.display_info()
+# a.age = -10
+# a.display_info()
+
+
+class Person:
+    def __init__(self, name, age):
+        self.__name = name
+        self.__age = age
+
+    def check_age(self, age):
+        if 90 >= age > 1:
+            self.__age = age
+        else:
+            print("Dont allowed age")
+
+    def get_age(self):
+        return self.__age
+
+    def get_name(self):
+        return self.__name
+
+    def display_info(self):
+        print(f"name: {self.__name}, age: {self.__age}")
+
+
+object_of_data = Person("Maga", 23)
+object_of_data.display_info()
+object_of_data.check_age(-25)
+object_of_data.display_info()
+
+
+
+
+
